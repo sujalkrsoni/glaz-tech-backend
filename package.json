@@ -4,7 +4,7 @@
   "main": "src/server.ts",
   "scripts": {
     "build": "tsc",
-    "start": "nodemon src/server.ts",
+    "start": "node dist/server.js",
     "generate": "node src/generateModule.js",
     "dev": "nodemon --watch .env --watch src --ext ts --exec ts-node src/server.ts",
     "seed:faqs": "ts-node src/scripts/seedFaqs.ts",
